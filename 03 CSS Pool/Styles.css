@@ -1,3 +1,33 @@
 body {
+    font-family: Arial Narrow ;
+    font-size: 18px ;
+    color: lightseagreen; 
+    background-color: antiquewhite
+}
+
+h1 {
+    font-family: Monotype Corsiva ;
+    font-size: 50px ;
+    color: black ;
+    background-color: aquamarine ;
+}
+
+h2 {
     font-family: Garamond ;
+    font-size: 40px ;
+    border: 3px dashed orange ;
+}
+
+figure {
+    border: 2px dotted purple ;
+
+
+    /*                border-style: dotted ;*/
+}
+
+.contact {
+    font-family: Monotype Corsiva ;
+    font-size: 30px ;
+    color: black ;
+    background-color: aquamarine
 }
