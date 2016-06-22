@@ -1,12 +1,13 @@
 body {
-    font-family: Arial Narrow ;
+    font-family: 'Arima Madurai', cursive ;
     font-size: 18px ;
     color: lightseagreen; 
     background-color: antiquewhite
+
 }
 
 h1 {
-    font-family: Monotype Corsiva ;
+    font-family: font-family: 'Cormorant Unicase', serif;
     font-size: 50px ;
     color: black ;
     background-color: aquamarine ;
@@ -15,7 +16,10 @@ h1 {
 h2 {
     font-family: Garamond ;
     font-size: 40px ;
-    border: 3px dashed orange ;
+    font-color: black ;
+    border: 4px dotted white ;
+    background-color: aqua ;
+    margin: 2px 
 }
 
 figure {
@@ -26,7 +30,7 @@ figure {
 }
 
 .contact {
-    font-family: Monotype Corsiva ;
+    font-family: 'Cormorant Unicase', serif;
     font-size: 30px ;
     color: black ;
     background-color: aquamarine
