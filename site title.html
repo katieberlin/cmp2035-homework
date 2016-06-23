@@ -4,17 +4,23 @@
             p {font-size: 18px ;}
 
             body 
-            {background-color: #dddddd;}
+            {background-color: #dddddd;
+            margin: 0;}
 
-            .navigation {
+            .navigation > p > a, .navigation > p{
                 font-family: sans-serif;
-                font-size: 60px ;
+                font-size: 1em ;
                 text-align: right; 
                 color: #ffffff;
-                background-color: #fffffff;
                 line-height: 50px ;
-                word-spacing: 9px ; } 
-
+                word-spacing: 10px ;}
+            
+/*
+            .links {
+                position: absolute;
+                right: 15px;
+            }
+*/
             /* unvisited link */
             a:link {
                 text-decoration: none; }
@@ -31,8 +37,9 @@
 
             .navigation {
                 background-color: #919191 ;
-                color: #FFFFFFFF ; }
-
+                color: #FFFFFFFF ;
+                }
+            
             .orange {
                 position: static ;
                     background: #FB6723 ;
@@ -110,7 +117,7 @@
 
 
         <div class="navigation">
-            <p> <a href="">link</a> |
+            <p class="links"> <a href="">link</a> |
                 <a href="">link</a> |
                 <a href="">link</a> |
                 <a href="">link</a>  
